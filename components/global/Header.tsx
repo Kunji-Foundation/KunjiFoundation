@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Header() {
   return (
-    <header className="bg-primary">
+    <header className="border-b-4 border-secondary bg-primary">
       <div className="max-w-8xl mx-auto px-4 sm:px-6 md:px-8">
         <Link href="#maincontent" className="hidden">
           Skip to main content
